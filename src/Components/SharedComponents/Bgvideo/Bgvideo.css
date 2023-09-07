@@ -1,0 +1,148 @@
+
+
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-video {
+    width: 100% !important;
+    position: relative !important;
+    height: 911px !important;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+}
+.Section{
+   overflow: hidden;
+}
+
+.link{
+    font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+color: rgb(68, 68, 191);
+
+    
+height: 25px;
+top: 108px;
+left: 102px;
+
+}
+.slash-link {
+position: absolute;
+    width: 240px;
+    height: 25px;
+    top: 111px;
+    left: 178px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white !important;
+
+}
+.line {
+    position: absolute;
+    top: 20px;
+    width: 99.5%;
+top: 160px;
+border: 1px;
+border: 1px solid rgba(255, 255, 255, 0.2)
+
+}
+
+.main-heading{
+    font-family: Manrope;
+font-size: 48px;
+font-weight: 800;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+width: 603px;
+height: 198px;
+left: 102px;
+
+
+    position: absolute;
+    top: 270px;
+ 
+    color: rgba(255, 255, 255, 1);
+
+    
+}
+.inner-desc{
+    font-family: Manrope;
+font-size: 20px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    width: 603px;
+height: 108px;
+top: 500px;
+left: 102px;
+
+
+}
+.see-more{
+    z-index: 1;
+    position: absolute;
+    width:auto;
+height:57px;
+top: 670px;
+left: 102px;
+padding: 16px 32px 16px 32px;
+gap: 8px;
+background-color: rgba(74, 74, 255, 1);
+font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .bg-video {
+        height: 368px;
+        width: 80% !important;
+        margin-top: 0 !important;
+    }
+    .animation{
+        margin-top: -45%;
+        margin-left: -8%;
+        
+    }
+    .set-one{
+        font-family: Manrope;
+        font-size: 24px;
+        
+      
+    }
+    .text-software{
+        font-family: Manrope;
+font-size: 20px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: -215%;
+margin-left: -57%;
+    }
+
+  }

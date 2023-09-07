@@ -1,0 +1,108 @@
+.meet_people_vector{
+    position: relative;
+    left: 69.3%;
+    margin-top: -17%;
+    z-index: -1;
+}
+.Meet_People{
+    color: #090017;
+font-family: Manrope;
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: -21%;
+}
+.Meet_People_Text{
+    color: var(--Dark-blue, #090017);
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 77%;
+margin-top: -15%;
+}
+
+.meet_owner_images{
+    height: 450px;
+    
+}
+.Images_Bg {
+    position: relative;
+    background: linear-gradient(180deg, rgba(2, 0, 26, 0.00) 0.38%, rgba(2, 0, 26, 0.85) 100%) !important;
+    margin-left: 1%;
+    max-width: 32% !important;
+    overflow: hidden; /* Hide the overlay by default */
+  }
+  
+  .CTO_img {
+    background-image: url("../../assets/Images/CTO_placeholder_grayscale_image.png");
+    margin-left: -8%;
+    transition: 0.3s;
+    height: 450px;
+  }
+  
+  .CTO_img:hover {
+    background-image: url("../../assets/Images/CTO_placeholder_colored_image.png");
+  }
+  
+  .overlay_On_image {
+    position: absolute;
+    bottom: 0; /* Place the overlay at the bottom of the container */
+    left: 0;
+    width: 100%;
+    height: 0; /* Initially hidden with no height */
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay background color and opacity */
+    color: white; /* Text color on the overlay */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s, height 0.3s; /* Add transitions for opacity and height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Images_Bg:hover .overlay_On_image {
+    height: 25%; /* Expand the overlay to 100% height on hover */
+    opacity: 1; /* Show the overlay on hover */
+  }
+  
+
+.CEO_img{
+    background-image: url("../../assets/Images/CTO_placeholder_grayscale_image.png");
+    height: 450px;  
+    margin-left: -6%;
+    transition: 0.3s;
+}
+.CEO_img:hover{
+    background-image: url("../../assets/Images/CTO_placeholder_colored_image.png");
+}
+.Business_Developer_img{
+    background-image: url("../../assets/Images/CTO_placeholder_grayscale_image.png");
+    margin-left: -7%;
+    transition: 0.3s;
+    height: 450px;
+    
+}
+.Business_Developer_img:hover{
+    background-image: url("../../assets/Images/CTO_placeholder_colored_image.png");
+}
+
+.Ceo_names{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.posts{
+    color: var(--blue, linear-gradient(270deg, #66F 0%, #2569E6 100%));
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}

@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.unique22 {
+    
+    height: 398px;
+    margin-top: -20px;
+    margin-left: 879px;
+    
+    
+    }
+.cards-main-div {
+    height: 575px;
+    background-color:  #EFEFEF;
+    padding-left: 80px;
+    
+
+}
+.cards-sub-div 
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* width: 1024px; */
+    /* margin: 80px; */
+    margin-top: -380px;
+    padding-top: 30px;
+    margin-left: 40px;
+    
+    
+    
+
+}
+.cards-sub-div2 {
+ 
+ display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 0px !important;
+}
+.Mobile{
+    width: 43px;
+    align-items: center;
+    justify-content: center;
+    left: -18%;
+}
+.card{
+    height: 216px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.we-are{
+    font-size: 50px;
+    margin-left: 300px;
+    justify-content: end;
+}
+.dedicated{
+    margin-left: 164px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Quality{
+    margin-left: 300px;
+    font-size: 50px;
+    color: #4A4AFF;
+    font-weight: bold;
+}

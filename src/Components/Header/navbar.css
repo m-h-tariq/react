@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    margin-left: 8%;
+}
+/* .main-div{
+    width: 76px;
+height: 25px;
+top: 44px;
+left: 466px;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+
+} */
+.navbar {
+    background-color: #4A4AFF;
+    position: fixed;
+    z-index: 22;
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+   
+    justify-content: end;
+    font-family: Manrope !important;
+font-size: 20px !important; 
+font-weight: 700 !important;
+line-height: 25px !important;
+letter-spacing: 0em !important;
+text-align: center !important;
+
+
+}
+.inner-navigation{
+    width: 75%;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    
+}
+.contact{
+    background-color:  #4A4AFF !important;
+    width:25%;
+height: 70px;
+justify-content: center;
+align-items: center;
+
+display: flex;
+
+
+color: white !important;
+    
+}
+/* @media screen and (max-width: 991px) {
+    .inner-navigation{
+        width: 100%;
+        height: 205px;
+
+    }
+    .nav{
+        
+        margin: 0 !important;
+       
+    }
+    
+    
+  } */
+  /* .heading {
+    width: 1238px;
+height: 79px;
+margin-top: 79px;
+margin-left: 79px;
+align-items: center;
+justify-content: center;
+
+    font-family: Manrope;
+font-size: 58px;
+font-weight: 800;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: left;
+
+  } */
+  .set_sizes{
+    font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .show-effect {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .set_contact{
+    background-color: #4A4AFF !important;
+    color: white;
+    width: 15%;
+  }
+  .service_Link{
+    position: relative;
+    height: 100%;
+    /* text-align: center; */
+    line-height: 55px;
+  }
+  .service_Link:hover .Property1Variant3_frame4variant3__nzBsi{
+    transform: translateY(0); /* Move the element down to its normal position */
+    display: block;
+  }
+  .service_Link:hover .about{
+    display: flex !important;
+    min-width: 98.7vw;
+  }
+ 
+
+  /* @media only screen and (min-width: 768px) {
+    .contact {
+        background-color: aquamarine !important;
+        height: 100% !important;
+        align-items: first baseline !important;
+        position: relative !important;
+        top: -221px !important;
+        left: 481px !important;
+    }
+  } */
+  @media only screen and (max-width: 768px) {
+    .navbar-light .navbar-toggler-icon {
+        position: absolute;
+        left: 59%;
+        top: 19%;
+    }
+    
+    .navbar{
+        width: 98%;
+        /* margin-right: 4%; */
+        height: 50px;
+    }
+    .set_contact{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+width: 29%;
+height:  50px;
+
+padding: 12px 24px 12px 24px;
+
+
+    }
+    .Big_Logo{
+        width: 30%;
+    }
+    .Entities-Logo{
+        width: 40%;
+    }
+  }
+
+ 

@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footermainbody {
+    background-color: #090017;
+    padding: 4% 6%;
+    position: relative;
+}
+
+.footerdata1 {
+    color: #FFF;
+    font-family: IBM Plex Sans Thai Looped;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footerdata11 {
+    width: 80%;
+}
+
+.footerdata1head {
+    margin-bottom: 15%;
+    color: #FFF;
+    font-family: IBM Plex Sans Thai Looped;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footerdata1sub {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footerdata1images {
+    margin-top: 15%;
+    
+}
+
+.footerdata1images a {
+    text-decoration: none;
+}
+
+.footerdata2head,
+.footerdata3head,
+.footerdata4head,
+.footerdata5head {
+    color: var(--light-blue, #2F58CD);
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15%;
+}
+
+.footerdata2list a,
+.footerdata3list a,
+.footerdata4list a {
+    text-decoration: none;
+    
+}
+
+.footerdata2li,
+.footerdata3li,
+.footerdata4li,
+.footerdata5li {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.2px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+   
+    margin-bottom: 7%;
+    display: flex;
+}
+
+.footerlocation {
+    display: flex;
+}
+
+.footercontactimg {
+    height: 100%;
+    margin-right: 6%;
+}
+
+.footerdata5list {
+    /* width: 250px; */
+}
+
+.footerendcontent {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #090017;
+    border-top: 1px solid white;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer_main_class{
+    position: relative;
+}
+.footerdata2{
+    position: relative;
+}
+.Quick_links{
+    position: relative;
+}
+.contact_class{
+    position: relative;
+}
+/* .email_contact{
+    width: 10%;
+} */
+
+@media only screen and (max-width: 768px) {
+    .footerdata1images {
+        position: absolute;
+        left: 54%;
+        top: -58%;
+        display: flex;
+        /* margin-left: 0%; */
+        gap: 22%;
+    }
+    .footerdata1sub{
+        font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+width: 62%;
+margin-top: -10%;
+margin-left: 4%;
+    }
+    /* .footerdata2head{
+        font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top: 13%;
+left: 6%;
+    } */
+
+    .footerdata2{
+        position: absolute;
+        top: 13%;
+    }
+    .footerdata2head{
+        position: absolute;
+        /* top: 11%; */
+        left: 6%;
+        margin-top: 11%;
+    }
+    /* .footerdata2li{
+        margin-left: 6%;
+        
+    } */
+    .footerdata2list{
+        position: absolute;
+        /* top: 2%; */
+        /* bottom: 0%; */
+        left: 6%;
+        margin-top: 17%;
+    }
+   
+    .footerdata3head {
+        position: absolute;
+        left: 64%;
+        /* top: -28%; */
+        margin-top: -3%;
+    }
+    .footerdata3li{
+        margin-left: 66%;
+        margin-top: -5%;
+    }
+    .footerdata3list{
+        position: absolute;
+    left: 49%;
+    /* top: -4%; */
+    margin-top: 4%;
+    }
+    .footer_main_class {
+        position: absolute;
+        top: 23%;
+    }
+    .Quick_links{
+        margin-top: 83%;
+        margin-left: 4%;
+    }
+    .footerdata4head{
+        top: -26%;
+        /* margin-top: -14%; */
+        position: absolute;
+        left: 3%;
+    }
+    .footerdata4list{
+        margin-top: -4%;
+    }
+    .footerdata4li{
+        margin-top: -4%;
+    }
+    .contact_class{
+        position: absolute;
+    }
+    .footerdata5head{
+        position: absolute;
+        left: 63%;
+        top: 65%;
+    }
+    .footerdata5list{
+        margin-top: 106%;
+        margin-left: 58%;
+        width: 35%;
+
+    }
+    .footercontactimg{
+        width: 12%;
+        height: 16px;
+    }
+    .email_contact{
+        font-size: 15px;
+    }
+    
+  }

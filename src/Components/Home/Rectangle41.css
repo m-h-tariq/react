@@ -1,0 +1,245 @@
+body{
+    padding: opx;
+    margin: 0px;
+}
+
+
+/* .Rectangle41-main{
+    width: 100%;
+height: 530px;
+top: 1240px;
+left: -3px;
+
+ 
+
+} */
+
+
+.svg41{
+    position: absolute;
+    top: 102%;
+    width: 100%;
+    z-index: 2;
+    
+}
+.Rectangle41-text-div{
+  font-family: Manrope;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  /* width: 775px; */
+  /* height: 57px; */
+  /* top: 867px; */
+  /* left: 100px; */
+  color: white;
+  z-index: 3;
+  margin-left: 7%;
+  margin-top: 10%;
+    
+}
+.Rectangle41-text-div .software-text{
+  color: blue !important;
+ 
+  
+
+}
+.Rectangle41-desc-div{
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 40.8%;
+  height: 165px;
+  position: absolute;
+  top: 153%;
+  left: 7.4%;
+  color: white;
+  z-index: 3;
+
+
+}
+
+
+
+
+  .union41{
+    position: absolute;
+    width: 32%;
+    height: 440px;
+    /* top: 124%; */
+    /* left: 49%; */
+    z-index: 3;
+    right: 0;
+    margin-top: -12%;
+  }
+  .unionbg{
+    position: absolute;
+    width: 649px;
+    height: 572px;
+    top: 897.159668px;
+    left: 557px;
+    -webkit-transform: rotate(-11.8deg);
+    z-index: 3;
+    overflow: hidden;
+
+
+  }
+  .union-2-set{
+    background-image: url("../../assets/Images/Union_2.svg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    height: 487px;
+    width: 70.92%;
+    position: absolute;
+    /* left: 364px; */
+    /* top: 154%; */
+    overflow: hidden;
+    z-index: 2;
+    right: 0;
+    background-position-x: right;
+    margin-top: 3%;
+
+  }
+  .seemore-btn {
+    width: 17%;
+    height: 17%;
+    position: absolute;
+    top: 316%;
+    left: 7.7%;
+    padding: 16px 32px;
+    background-color: rgba(74, 74, 255, 1);
+    border: none;
+    border-radius: 0; /* Use '0' instead of 'none' */
+    z-index: 3;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    transition: background-image 0.5s, transform 0.5s; /* Add transition properties */
+    padding-left: 0%;
+  }
+ 
+  .arrow-5 {
+    /* background-image: url("../../assets/Images/forward_arrow.svg"); */
+    width: 16%;
+    height: 72%;
+    display: grid;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-left: 88%;
+    margin-top: -11%;
+    color: white;
+
+  }
+  
+  .arrow-5:before,
+  .arrow-5:after {
+    content: "";
+    grid-area: 1/1;
+    background: currentColor;
+    clip-path: polygon(0 9px, calc(100% - 5px) 9px, calc(100% - 13px) 0, 100% 50%, calc(100% - 13px) 100%, calc(100% - 5px) calc(100% - 10px), 0 calc(100% - 10px));
+    transform: translate(calc(0% + var(--s, 0%)));
+  }
+  
+  .arrow-5:after {
+    --s: -100%;
+  }
+  
+  /* Add animation only when hovering over .arrow-5 */
+  .arrow-5:hover:before,
+  .arrow-5:hover:after {
+    animation: a5 1s infinite;
+  }
+  
+  @keyframes a5 {
+    80%, 100% {
+      transform: translate(calc(100% + var(--s, 0%)));
+    }
+  }
+  .explore-this-button {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 243px;
+    height: 57px;
+    /* background-image: url('../../assets/Images/white_Arrow.svg'); */
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+  /* .explore-this-button::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/Images/white_Arrow.svg'); 
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    transition: transform 0.5s, opacity 0.5s; 
+    opacity: 0;
+  } */
+  
+  /* .explore-this-button:hover::before {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+  
+  .explore-this-button:hover {
+    color: #ffffff; 
+  }
+  
+  
+   */
+   @media only screen and (max-width: 768px) {
+    .svg41 {
+     
+    margin-top: -16%;
+
+    }
+    .Rectangle41-text-div{
+      margin-top: -108%;
+      font-size: 20px;
+    }
+    .innovation{
+      position: absolute;
+      top: 41%;
+      left: 0;
+    }
+    .Rectangle41-desc-div{
+      margin-top: -39%;
+      font-family: Manrope;
+font-size: 14px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+width: 202px;
+height: 152px;
+    }
+    .explore-this-button{
+      display: none;
+    }
+    .union41{
+      margin-top: -44%;
+      width: 26%;
+    }
+    .union-2-set {
+      width: 54% !important;
+      height: 208px;
+      background-position-x: right;
+      margin-top: -3%;
+    }
+  }
+
+  /* margin-top: 10%; */

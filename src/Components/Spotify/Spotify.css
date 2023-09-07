@@ -1,0 +1,14 @@
+.spotify_main_div{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 100%;
+    position: relative;
+    padding-top: 15%;
+}
+.Spotify_btn{
+    
+    position: absolute;
+    top: 22%;
+    left: 15%;
+    color: black !important;
+}

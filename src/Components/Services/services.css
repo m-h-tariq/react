@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.services{
+
+font-family: Manrope;
+font-family: Manrope;
+font-size: 48px;
+font-weight: 600;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: Manrope;
+font-size: 48px;
+font-weight: 800;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.services-main-div{
+    background-color: #efefefd9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 31vh;
+    padding-top: 48%;
+}
+
+.uniquelogo {
+   
+    margin-left: -35%;
+    margin-top: -75%;
+
+
+}
+/* .Discover{
+  
+    margin-left: 200px;
+} */
+.Services_heading_{
+    margin-top: -112%;
+}
+
+    .bg-img{
+        background-image:
+        /* linear-gradient( to bottom, rgba(54, 69, 153, 0.52), rgba(117, 19, 93, 0.73)),  */
+            url('../../assets/Images/Rectangle\ 322.png'
+            ) 
+            !important;
+        width: 100%;
+        height: 440px;
+        background-size: cover;
+        color: white;
+        padding: 20px;
+        margin-top: -29%;
+    }
+
+    .bg-img h2{
+        width: 680px;
+/* height: 144px; */
+/* top: 365px; */
+        margin-top: 60px;
+        margin-left: 70px;
+
+    }
+
+.unlock{
+    /* margin: 20px; */
+    background: #4A4AFF;
+    margin-left: 70px;
+    height: 55px !important;
+    width: 346px !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+.text-div{
+    padding-top: 5px;
+    
+}
+
+.slider-main-div {
+    height: 700px;
+    background-color: #E0E0E0;
+    margin: auto;
+
+}
+
+.we-love {
+    margin-left: 100px;
+    padding-top: 10px;
+    font-size: 42px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+
+}
+.we-love-heading{
+
+}
+.dec{
+   font-size: 24px;
+   margin-left: 100px;
+    /* padding-top: 10px; */
+
+}
+.Slider-up-div{
+    background-color: #E0E0E0;
+    height: 700px;
+    
+
+}
+
+.carousel-div{
+
+    width: 70%;
+    position: relative;
+    left: 17%;
+    height: 413px;
+    background-color: white;
+}
+
+
+
+.carousel-inner{
+    background-color: white;
+    position: relative;
+    left: 14.4%;
+    width: 74%;
+    box-shadow: 0px 4px 52px 0px rgba(9, 0, 23, 0.08);
+
+
+}
+.d-block{
+    position: relative;
+    left: -120px;
+    top: 100px;
+}
+
+.back-div {
+    position: absolute;
+    height: 450px;
+    width: 62%;
+    left: 21%;
+    background-color: white;
+    box-shadow: 0px 4px 52px 0px rgba(9, 0, 23, 0.08);
+}
+.back2-div {
+    position: absolute;
+    height: 431px;
+    width: 69%;
+    left: 17%;
+    background-color: white;
+    top: 0;
+    box-shadow: 0px 4px 52px 0px rgba(9, 0, 23, 0.08);
+
+
+}
+.right{
+    position: absolute;
+    right: -10px;
+}
+.left{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+}
+.Vector2{
+    position: absolute;
+    top: 32px;
+    left: 60px;
+    width: 30%;
+}
+.description{
+    position: absolute;
+    width: 95%;
+height: 108px;
+top: 96px;
+left: 146px;
+
+}
+.name{
+    font-family: Manrope;
+font-size: 26px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top: 120px;
+}
+.sub_name{
+    font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top: 188px;
+}
+.Vector3 {
+    position: absolute;
+    top: 210px;
+    left: 522px;
+}

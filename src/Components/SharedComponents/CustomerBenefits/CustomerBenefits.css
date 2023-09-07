@@ -1,0 +1,394 @@
+.twelve-div-text{
+    font-family: Manrope;
+font-size: 42px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+padding: 4%;
+
+}
+.all-logos{
+    display: flex;
+    /* width: 884px; */
+    /* gap: 18%; */
+    /* padding-left: 18%; */
+    margin-top: -4%;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+.logos-text-set{
+    display: flex;
+    padding-top: 1%;
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+justify-content: center;
+justify-content: space-evenly;
+
+}
+.discuss-ideas{
+    display: flex;
+   overflow: hidden;
+   z-index: 1;
+
+    width: 100%;
+height: 433px;
+/* background-color: aqua;   */
+
+}
+.discuss-ideas-text{
+    width: 1166px;
+height: 333px;
+/* background-color: blue; */
+margin: 6%;
+}
+.discuss-ideas-heading{
+    font-family: Manrope;
+font-size: 42px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+width: 600px;
+height: 128px;
+}
+.discuss-ideas-subheading{
+    font-family: Manrope;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+width: 528px;
+height: 72px;
+
+}
+.bigentities-contact{
+    width: 583px;
+    position: relative;
+    overflow: hidden;
+height: 333px;
+background: linear-gradient(270deg, rgba(102, 102, 255, 0.3) 0%, rgba(37, 105, 230, 0.3) 100%);
+
+
+}
+.bigentities-contactus{
+    padding: 5%;
+    color: white;
+}
+.copy-text-img{
+    margin-left: 90%;
+    margin-top: -12%;
+}
+.write-email{
+    font-family: Manrope;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.bigentities-email{
+    font-family: Manrope;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.bigentities-nmb{
+    font-family: Manrope;
+font-size: 38px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: right;
+margin-left: 4%;
+position: absolute;
+top: 49%;
+}
+.call-img{
+    margin-top: 5%;
+}
+.contact-button{
+    background: linear-gradient(270deg, #6666FF 0%, #2569E6 100%);
+height: 85px;
+}
+.contact-button-text{
+    width: 287px;
+height: 57px;
+padding: 32px 24px 12px 24px;
+gap: 8px;
+
+}
+.contact-form{
+    font-family: Manrope;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+
+}
+
+/* .contact-form:hover{
+    color: black;
+} */
+/* a:hover {
+    color:white !important;
+    text-decoration: none !important;
+} */
+.Arrow-forward{
+    margin-left: 2%;
+    position: absolute;
+    top: 86%;
+}
+.all-logos-class{
+    min-width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.figma{
+    background-image: url("../../../assets/Images/Figma.svg");
+}
+.figma:hover{
+    background-image: url("../../../assets/Images/Figma_color.svg");
+}
+.sketch{
+    background-image: url('../../../assets/Images/Sketch.svg');
+}
+.sketch:hover{
+    background-image: url('../../../assets/Images/Sketch_color.svg');
+}
+.linkedin{
+    background-image: url("../../../assets/Images/Linkdin.svg");
+}
+.linkedin:hover{
+    background-image: url("../../../assets/Images/Linkdin_color.svg");
+}
+.adobe{
+    background-image: url("../../../assets/Images/adobe_xd.svg");
+}
+.adobe:hover{
+    background-image: url("../../../assets/Images/adobe_xd_color.svg");
+}
+.html_pic{
+    background-image: url("../../../assets/Images/html.svg");
+}
+.html_pic:hover{
+    background-image: url("../../../assets/Images/html_color.svg");
+}
+.change-picture{
+    background-image: url("./../../../assets/Images/Frame-85.svg");
+}
+.change-picture:hover{
+    background-image: url("./../../../assets/Images/pytorch.svg");
+    
+}
+.Change-tensor{
+    background-image: url("./../../../assets/Images/Icon-1.svg");
+}
+.Change-tensor:hover{
+    background-image: url("./../../../assets/Images/tensor-color.svg");
+    
+}
+.Change-Python{
+    background-image: url("./../../../assets/Images/python-pic.svg");
+}
+.Change-Python:hover{
+    background-image: url("./../../../assets/Images/Python_color.svg");
+}
+.change-open-cv{
+    background-image: url("./../../../assets/Images/open-cv.svg");
+}
+.change-open-cv:hover{
+    background-image: url("./../../../assets/Images/open-cv-color.svg");
+}
+.change-css{
+    background-image: url("./../../../assets/Images/Css3.svg");
+}
+.change-css:hover{
+    background-image: url("./../../../assets/Images/Css3_color.svg");
+}
+.change-javascript{
+    background-image: url("./../../../assets/Images/javascript.svg");
+}
+.change-javascript:hover{
+    background-image: url("./../../../assets/Images/javascript_color.svg");
+}
+.change-React{
+    background-image: url("./../../../assets/Images/React.svg");
+}
+.change-React:hover{
+    background-image: url("./../../../assets/Images/React_color.svg");
+}
+.change-Angular{
+    background-image: url("./../../../assets/Images/Angular.svg");
+}
+.change-Angular:hover{
+    background-image: url("./../../../assets/Images/Angular_color.svg");
+}
+.change-Larval{
+    background-image: url("./../../../assets/Images/Laravel.svg");
+}
+.change-Larval:hover{
+    background-image: url("./../../../assets/Images/Laravel_color.svg");
+}
+.change-Android{
+    background-image: url("./../../../assets/Images/Android.svg");
+}
+.change-Android:hover{
+    background-image: url("./../../../assets/Images/Android_color.svg");
+}
+.change-IPhone{
+    background-image: url("./../../../assets/Images/Apple.svg");
+}
+.change-IPhone:hover{
+    background-image: url("./../../../assets/Images/Apple_color.svg");
+}
+.change-Flutter{
+    background-image: url("./../../../assets/Images/Flutter.svg");
+}
+.change-Flutter:hover{
+    background-image: url("./../../../assets/Images/Flutter_color.svg");
+}
+.change-ReactNative{
+    background-image: url("./../../../assets/Images/React_Native.svg");
+}
+.change-ReactNative:hover{
+    background-image: url("./../../../assets/Images/React_Native_color.svg");
+}
+.change-Xamarin{
+    background-image: url("./../../../assets/Images/Xamarin.svg");
+}
+.change-Xamarin:hover{
+    background-image: url("./../../../assets/Images/Xamarin_color.svg");
+}
+.change-Bitcoin{
+    background-image: url("./../../../assets/Images/Bitcoin.svg");
+}
+.change-Bitcoin:hover{
+    background-image: url("./../../../assets/Images/Bitcoin_Color.svg");
+}
+.change-Ethereum{
+    background-image: url("./../../../assets/Images/Etherium.svg");
+}
+.change-Ethereum:hover{
+    background-image: url("./../../../assets/Images/Etherium_Color.svg");
+}
+.change-Hyperledger{
+    background-image: url("./../../../assets/Images/hyperledger.svg");
+}
+.change-Hyperledger:hover{
+    background-image: url("./../../../assets/Images/hyperledger_Color.svg");
+}
+.change-Multichain{
+    background-image: url("./../../../assets/Images/multichain.svg");
+}
+.change-Multichain:hover{
+    background-image: url("./../../../assets/Images/multichain_Color.svg");
+}
+.change-Jira{
+    background-image: url("./../../../assets/Images/jira.svg");
+}
+.change-Jira:hover{
+    background-image: url("./../../../assets/Images/jira_Color.svg");
+}
+.change-Confluence{
+    background-image: url("./../../../assets/Images/confluence.svg");
+}
+.change-Confluence:hover{
+    background-image: url("./../../../assets/Images/confluence_Color.svg");
+}
+.change-AWS{
+    background-image: url("./../../../assets/Images/aws.svg");
+}
+.change-AWS:hover{
+    background-image: url("./../../../assets/Images/aws_Color.svg");
+}
+.change-Slack{
+    background-image: url("./../../../assets/Images/Slack_logo.svg");
+}
+.change-Slack:hover{
+    background-image: url("./../../../assets/Images/Slack_logo_Color.svg");
+}
+.change-Google_Meets{
+    background-image: url("./../../../assets/Images/Google_Meet.svg");
+}
+.change-Google_Meets:hover{
+    background-image: url("./../../../assets/Images/Google_Meet_Color.svg");
+}
+.logos-text{
+    position: absolute;
+    bottom: -40px;
+    left: -8px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+    text-align: center;
+}
+.all-logos-class{
+    position: relative;
+}
+.background-effect{
+    position: absolute;
+    left: -69px;
+    top: -47px;
+    width: 162px;
+    height: 162px;
+    border-radius: 100%;
+    background-color: #5B66FB;
+    opacity: 0.3;
+    overflow: hidden;
+    transition: all 0.1s ease;
+    z-index: -1;
+}
+.bigentities-contact:hover .background-effect{
+
+height: 450px;
+width: 450px;
+}
+.background-effect-two{
+    position: absolute;
+    left: -115px;
+    top: -54px;
+    width: 284px;
+    height: 284px;
+    border-radius: 100%;
+    background-color: #5B66FB;
+    opacity: 0.2;
+    overflow: hidden;
+    transition: all 0.1s ease;
+    z-index: -1;
+}
+.bigentities-contact:hover .background-effect-two{
+    height: 600px;
+    width: 600px;
+}
+.background-effect-three{
+    position: absolute;
+    left: -115px;
+    top: -54px;
+    width: 425px;
+height: 425px;
+    border-radius: 100%;
+    background-color: #5B66FB;
+    opacity: 0.2;
+    overflow: hidden;
+    transition: all 0.1s ease;
+    z-index: -1;
+}
+.bigentities-contact:hover .background-effect-three{
+    height: 700px;
+    width: 710px;
+}

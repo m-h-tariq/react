@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    maxrgin: 0;
+}
+.Rectangle45-1{
+   
+    position: relative;
+    top: -8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 726px;
+    background-color: #E0E0E0;
+    overflow: hidden;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    height: 664px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32%;
+    z-index: 1;
+
+} 
+.Rectangle45-2{
+    color: #090017;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Rectangle45-3{
+    color: #4A4AFF;
+font-family: Manrope;
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+.Rectangle45-4{
+    position: relative;
+    left: 8%;
+    color: rgba(9, 0, 23, 1);
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 83%;
+    margin-top: 2%;
+}
+.rectangle-top{
+    margin-top: 7%;
+}
+/* .Rectangle45-5{
+    position: relative;
+    top: 15px;
+    
+    height: 400px;
+} */
+.items {
+    position: relative;
+    left: 7%;
+    display: flex;
+    margin-left: 0%;
+    gap: 1.1%;
+    /* overflow: hidden; */
+    margin-top: 4%;
+    transition: transform 2.5s;
+  }
+  
+  /* Apply the hover effect */
+  .items:hover {
+    transform: translateX(-20%); /* Move items to the left on hover */
+  }
+  
+.item {
+    position: relative;
+    /* justify-content: center;
+    align-items: center; */
+    width: 170px;
+    height: 216px;
+    padding: 19px 24px 16px 38px;
+    /* gap: 8px; */
+    background-color: white;
+    transition: 0.3s ease all;
+}
+
+.item:hover {
+    background-color: var(--light-grey, #E8E8E8);
+   
+}
+.item:hover .Mobile{
+    width: 70px;
+    height: 70px;
+    top: -1rem;
+    left: -1.5rem;
+    transition: 0.9s ease all;
+   
+}
+.item:hover .card-heading-div{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: -1.2rem;
+    left: -0.5rem;
+   
+    color: rgba(0, 0, 0, 1);
+    transition: 0.9s ease all;
+}
+.Mobile{
+    display: flex;
+    width: 60px;
+height: 60px;
+margin: 20px 8px 27px 32px;
+transition: 0.3s ease all;
+position: relative;
+left: -0.5rem;
+}
+.card-heading-div{
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+ width: 109px;
+height: 42px;  
+color: rgba(0, 0, 0, 1);
+position: relative;
+left: -0.5rem;
+
+}
+.card-interface-div{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 109px;
+    height: 42px;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    left: -0.5rem;
+}
+.item:hover .card-interface-div{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 122px;
+    height: 48px;
+    color: rgba(0, 0, 0, 1);
+    transition: 0.9s ease all;
+    top: -1.2rem;
+    left: -1rem;
+}
+.item::before {
+    content: ''; 
+    background-image: url('../../assets/Images/Vector_item.svg'); /* Set your image URL */
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px; 
+    height: 10px; 
+    position: absolute;
+    left: 4.5rem;
+    bottom: 8%;
+    transform: translateY(200%) rotate(180deg); /* Start offscreen and rotated */
+    opacity: 0;
+    transition: transform 0.9s, opacity 0.5s; /* Transition transform and opacity */
+  }
+  
+  .item:hover::before {
+    transform: translateY(-50%) rotate(360deg); /* Move up and rotate back to 0 degrees */
+    opacity: 1;
+  }
+  
+
+/* .rectangle-set-color{
+    background-color: #E0E0E0;
+    margin-top: -87px;
+    z-index: -1;
+}
+.provide-gap{
+    margin-top: 46px;
+    display: grid;
+} */
+
+/* .set-back-color{
+    background-color: rgba(224, 224, 224, 1);
+    width: 1263px;
+height: 726px;
+margin-top: 53%;
+}
+.software-heading-1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    position: absolute;
+    left: 43%;
+    top: 317%;
+}
+.software-heading-2{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    position: absolute;
+    left: 43%;
+    top: 342%;
+} */
+
+@media only screen and (max-width: 600px) {
+    .Rectangle45-2{
+        font-family: Manrope;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    }
+    .Rectangle45-3{
+        font-family: Manrope;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .Rectangle45-4{
+        font-family: Manrope;
+font-size: 14px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+width: 313px;
+height: 76px;
+position: absolute;
+left: 14%;
+    }
+    .items{
+        margin-top: 10%;
+    }
+  }
